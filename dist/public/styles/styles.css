@@ -1,0 +1,30 @@
+ *{
+    margin: 0;
+    padding: 0;
+    background-color: bisque;
+}
+
+.header-container{
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    justify-content: center;
+    margin: 1em 0;
+}
+
+.header-container > li{
+    list-style: none;
+}
+
+.main-container{
+    text-align: center;
+    margin: 2em 0;
+}
+
+.contacts > li{
+    margin: 1em 0;
+}
+
+footer{
+    text-align: center;
+}
